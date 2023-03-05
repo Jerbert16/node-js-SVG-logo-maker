@@ -37,7 +37,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 ## Logo Result | Mock-Up
-![image](./Images/10-oop-homework-demo.png)
+![image](./Assets/Images/10-oop-homework-demo.png)
 
 ## Application in Use:
 

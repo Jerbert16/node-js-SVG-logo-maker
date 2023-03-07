@@ -5,7 +5,6 @@ Sometimes a developer needs to generate a placeholder logo, but creating logos c
 
 This program uses the following to accomplish the aforementioned:
 * Node JS
-* Heroku
 * Jest
 * Inquirer
 

@@ -28,6 +28,8 @@ inquirer
     },
   ])
   .then((responses) => {
+
+    const shapeChoice = responses.shapes;
     const circle = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
 <circle cx="150" cy="100" r="80" fill="${responses.shapeColor}" />
@@ -52,17 +54,17 @@ inquirer
 
 </svg>`;
 
-    if ((responses.choices = 0)){
+    if ((shapeChoice === "Circle")){
       fs.writeFile("logo.svg", circle, (err) =>
         err ? console.log(err) : console.log("Generated logo.svg")
       )}
 
-    else if ((responses.choices = 1)){
+    else if ((shapeChoice === "Square" )){
       fs.writeFile("logo.svg", square, (err) =>
         err ? console.log(err) : console.log("Generated logo.svg")
       )}
 
-    else if ((responses.choices = 2)){
+    else if ((shapeChoice === "Triangle")){
       fs.writeFile("logo.svg", triangle, (err) =>
         err ? console.log(err) : console.log("Generated logo.svg")
       )};

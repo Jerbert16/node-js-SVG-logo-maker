@@ -40,4 +40,4 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Application in Use:
 
-[(link to video)](https://github.com/Jerbert16/Node-JS-SVG-Logo-Maker)
+[(link to video)](https://youtu.be/yfO7KgXz6aA)
